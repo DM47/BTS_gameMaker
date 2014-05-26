@@ -132,6 +132,7 @@ y = player_obj.y;
     targetX = mouse_x;
     targetY = mouse_y;
     canShoot = false;
+    player_obj.idle = false;
     image_speed = 0.5;
     alarm[0] = 30;
 }
