@@ -5,14 +5,14 @@ if (idle == true) {
     
     if (angle > 90 && angle < 270) {
        image_xscale = -1;
-       with (whip_obj) {
+       with (weapon_whip_obj) {
             depth = 1000;
             image_xscale = -1;        
        }
     }
     else {
          image_xscale = 1;
-         with (whip_obj) {
+         with (weapon_whip_obj) {
               depth = 0;
               image_xscale = 1;          
          }

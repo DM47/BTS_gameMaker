@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>90</xorig>
-  <yorigin>53</yorigin>
+  <yorigin>61</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
@@ -10,7 +10,7 @@
   <bbox_left>0</bbox_left>
   <bbox_right>180</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>105</bbox_bottom>
+  <bbox_bottom>122</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,9 +18,8 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>181</width>
-  <height>106</height>
+  <height>123</height>
   <frames>
-    <frame index="0">images\btn_restart_spr_0.png</frame>
-    <frame index="1">images\btn_restart_spr_1.png</frame>
+    <frame index="0">images\enemy_feedbackRed_spr_0.png</frame>
   </frames>
 </sprite>

@@ -32,7 +32,7 @@ newY = y;
 
 idle = true;
 
-instance_create(x, y, whip_obj);
+instance_create(x, y, weapon_whip_obj);
 </string>
           </argument>
         </arguments>
@@ -120,7 +120,31 @@ instance_create(x, y, whip_obj);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="enemy_obj">
+    <event eventtype="4" ename="border_obj">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>newX = x;
+newY = y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="enemy_parent_obj">
       <action>
         <libid>1</libid>
         <id>603</id>
